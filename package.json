@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-     "start": "node index.js"
+    "start": "node index.js",
+    "test": "jest --coverage"
   },
   "keywords": [],
   "author": "",
@@ -11,5 +12,12 @@
   "description": "",
   "dependencies": {
     "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  },
+  "jest": {
+    "coverageDirectory": "coverage"
   }
 }
