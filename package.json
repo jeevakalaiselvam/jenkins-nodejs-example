@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "jest --coverage --watchAll --no-cache --detectOpenHandles"
+    "test": "jest --coverage --watchAll --no-cache --detectOpenHandles --forceExit"
   },
   "keywords": [],
   "author": "",
